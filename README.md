@@ -13,7 +13,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ilo06&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 </div>
 
-[![committers.top badge](https://user-badge.committers.top/madagascar/USERNAME.svg)](https://user-badge.committers.top/madagascar/ilo06)
+[![committers.top badge](https://user-badge.committers.top/madagascar/USERNAME.svg)](https://user-badge.committers.top/madagascar/Ilo06)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Ilo06&theme=radical&no-frame=true&no-bg=false&margin-w=4)
