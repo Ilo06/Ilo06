@@ -8,7 +8,7 @@
 <div align="center" width="90%">
   <img src="https://github-readme-stats.vercel.app/api?username=Ilo06&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true" />
   <br/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Ilo06&theme=nightowl&hide_border=false" />
+ <img src="https://streak-stats.demolab.com/?user=Ilo06&theme=dark&hide_border=false" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ilo06&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 </div>
