@@ -217,8 +217,9 @@ The project explores expressive interfaces and conversational experiences around
 
 ![](https://github-readme-stats.shion.dev/api?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=Ilo06&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br/>
 
+</div>
 ---
 
 ## `06` · A few more things
@@ -237,10 +238,6 @@ The project explores expressive interfaces and conversational experiences around
 ---
 
 <div align="center">
-
-<img
-src="https://komarev.com/ghpvc/?username=Ilo06&style=flat-square&color=18181B&label=profile+views"
-alt="Profile views">
 
 <br><br>
 
