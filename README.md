@@ -211,15 +211,13 @@ The project explores expressive interfaces and conversational experiences around
 
 ---
 
-## `05` · Contributions beyond my repositories
+## `05` · Github stats
 
 <div align="center">
 
-<img
-src="https://github-contributor-stats.vercel.app/api?username=Ilo06&limit=5&theme=dark&combine_all_yearly_contributions=true"
-alt="Top contributed repositories">
-
-</div>
+![](https://github-readme-stats.shion.dev/api?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Ilo06&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
 
@@ -227,7 +225,7 @@ alt="Top contributed repositories">
 
 <div align="center">
 
-`☕ Java` · `🐧 Linux` · `🎹 Piano` · `🎮 Games` · `🌌 Astronomy` · `⚽ Football` · `🎬 Anime`
+ `🎹 Piano` · `🐧 Linux` . `🎮 Games` · `🌌 Astronomy` · `⚽ Football` · `🎬 Anime`
 
 </div>
 
