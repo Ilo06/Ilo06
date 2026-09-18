@@ -53,9 +53,9 @@ const CFG = {
   levels: Math.max(1, Math.round(num('CONTRIBUTION_LEVELS', 4))),
 
   // Animation timings, milliseconds (all divided by ANIMATION_SPEED)
-  revealDuration: num('REVEAL_DURATION', 4200), // left-to-right sweep
+  revealDuration: num('REVEAL_DURATION', 4000), // left-to-right sweep
   cellFade: num('CELL_FADE_DURATION', 560), // per-cell fade/scale in
-  holdDuration: num('HOLD_DURATION', 4500), // full graph stays visible
+  holdDuration: num('HOLD_DURATION', 2500), // full graph stays visible
   outroDuration: num('OUTRO_DURATION', 900), // fade back to empty
   loopGap: num('LOOP_GAP', 500), // empty pause before restart
   speed: Math.max(0.05, num('ANIMATION_SPEED', 1)),
