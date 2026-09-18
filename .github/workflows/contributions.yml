@@ -1,0 +1,74 @@
+name: Generate contribution graph
+
+on:
+  schedule:
+    # Every day at 03:17 UTC (06:17 in Madagascar). Avoid :00 — the hour mark is congested.
+    - cron: "17 3 * * *"
+  workflow_dispatch: # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/contributions.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-graph
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate animated SVGs
+        env:
+          # Repository variable PROFILE_USERNAME if you set one, otherwise the repo owner.
+          # (GitHub forbids secrets/variables whose name starts with GITHUB_, so the
+          #  variable is named PROFILE_USERNAME but the script reads GITHUB_USERNAME.)
+          GITHUB_USERNAME: ${{ vars.PROFILE_USERNAME || github.repository_owner }}
+          # CONTRIB_TOKEN = classic PAT with `read:user` (needed to include private
+          # contributions). Falls back to the built-in token for public-only data.
+          GH_TOKEN: ${{ secrets.CONTRIB_TOKEN || secrets.GITHUB_TOKEN }}
+
+          # ---- customisation (all optional) ----
+          OUTPUT_DIR: output
+          CELL_SIZE: "11"
+          CELL_SPACING: "3"
+          BORDER_RADIUS: "2.5"
+          CONTRIBUTION_LEVELS: "4"
+          ANIMATION_SPEED: "1"
+          REVEAL_DURATION: "4200"
+          CELL_FADE_DURATION: "560"
+          HOLD_DURATION: "4500"
+          OUTRO_DURATION: "900"
+          LOOP_GAP: "500"
+          POP_SCALE: "1.16"
+          SHOW_LABELS: "true"
+          SHOW_LEGEND: "true"
+          SHOW_TOTAL: "true"
+          # YEAR: "2026"                 # or DATE_FROM / DATE_TO
+          # COLORS_LIGHT: "#ebedf0,#9be9a8,#40c463,#30a14e,#216e39"
+          # COLORS_DARK:  "#161b22,#0e4429,#006d32,#26a641,#39d353"
+        run: node scripts/generate-contributions.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --staged --quiet; then
+            echo "No change in contribution graph."
+            exit 0
+          fi
+          git commit -m "chore: update contribution graph [skip ci]"
+          git push
