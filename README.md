@@ -190,43 +190,30 @@ The project explores expressive interfaces and conversational experiences around
 
 ---
 
-## `04` · Contribution activity
+## `04` · GitHub
 
-<div align="center">
+<!-- stats:start -->
+<!-- stats:end -->
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions-dark.svg">
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg">
-  <img
-    src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg"
-    width="100%"
-    alt="GitHub contribution activity">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg">
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg" width="100%" alt="GitHub contribution activity">
 </picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/languages-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/languages.svg">
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/languages.svg" width="100%" alt="Most used languages">
+</picture>
 
 ---
 
-## `05` · Github stats
+## `05` · A few more things
 
 <div align="center">
 
-![](https://github-readme-stats.shion.dev/api?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Ilo06&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Ilo06&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br/>
-
-</div>
----
-
-## `06` · A few more things
-
-<div align="center">
-
- `🎹 Piano` · `🐧 Linux` . `🎮 Games` · `🌌 Astronomy` · `⚽ Football` · `🎬 Anime`
+ `🎹 Piano` · `🐧 Linux` · `🎮 Games` · `🌌 Astronomy` · `⚽ Football` · `🎬 Anime`
 
 </div>
 
