@@ -134,11 +134,7 @@ Python · JavaScript · HTML · CSS · Bash · PowerShell · Maven · Gradle · 
 
 **Spring Boot · Next.js · TypeScript · PostgreSQL · WebSocket/STOMP · JWT**
 
-A full-stack tech event management platform with real-time Q&A, anonymous question posting, JWT authentication, and a live agenda system with favorites and automatic session status detection.
-
-I designed the PostgreSQL schema, built the REST API, and implemented the real-time features end to end.
-
-**Deployed on Railway.**
+Full-stack tech event platform with real-time Q&A, live agendas, JWT authentication, and session tracking.
 
 </td>
 
@@ -148,13 +144,9 @@ I designed the PostgreSQL schema, built the REST API, and implemented the real-t
 
 ### `02` · GeoNumerique
 
-**Python · Depth Anything V2 · PyTorch · Computer Vision · QGIS**
+**Python · Depth Anything V2 · PyTorch · QGIS**
 
-A computer vision project that reconstructs 3D representations of houses from a single monocular image.
-
-Depth Anything V2 is used to estimate per-pixel depth, which is then transformed into a 3D mesh or point cloud for visualization.
-
-A practical exploration of deep-learning-based depth estimation for geospatial and architectural applications.
+Computer vision project transforming monocular images into 3D house representations using depth estimation.
 
 </td>
 </tr>
@@ -168,11 +160,7 @@ A practical exploration of deep-learning-based depth estimation for geospatial a
 
 **React · TypeScript · Node.js · Express · PostgreSQL**
 
-A full-stack application for tracking income, expenses, and overall financial activity.
-
-I worked across both the frontend and backend, building the interface as well as the server-side logic for accounts, financial records, and data management.
-
-The project focuses on clear spending insights, security, reliability, and a smooth user experience.
+Full-stack finance tracker for managing income, expenses, budgets, and financial activity.
 
 </td>
 
@@ -184,11 +172,7 @@ The project focuses on clear spending insights, security, reliability, and a smo
 
 **React · TypeScript · Node.js · LM Studio · Gemini · Llama.cpp**
 
-An interactive AI application built around playful, anime-inspired conversations and the tsundere personality archetype.
-
-I worked exclusively on the frontend, focusing on UI, UX, interaction design, and integration with AI-generated responses through LM Studio.
-
-The project explores expressive interfaces and conversational experiences around AI.
+Anime-inspired AI chat application focused on expressive UI, interaction design, and conversational experiences.
 
 </td>
 </tr>
