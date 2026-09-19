@@ -62,6 +62,8 @@ jobs:
         run: node scripts/generate-contributions.mjs
 
       - name: Generate stats and languages SVGs
+        # A stats failure must not block the contribution graph from being committed.
+        continue-on-error: true
         env:
           OUTPUT_DIR: output
           # ---- customisation (all optional) ----
