@@ -1,4 +1,4 @@
-name: Generate contribution graph
+name: Generate contribution graph and stats
 
 on:
   schedule:
@@ -21,6 +21,14 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      # Repository variable PROFILE_USERNAME if you set one, otherwise the repo owner.
+      # (GitHub forbids secrets/variables whose name starts with GITHUB_, so the
+      #  variable is named PROFILE_USERNAME but the scripts read GITHUB_USERNAME.)
+      GITHUB_USERNAME: ${{ vars.PROFILE_USERNAME || github.repository_owner }}
+      # CONTRIB_TOKEN = classic PAT with `read:user` (needed to include private
+      # contributions). Falls back to the built-in token for public-only data.
+      GH_TOKEN: ${{ secrets.CONTRIB_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,14 +40,6 @@ jobs:
 
       - name: Generate animated SVGs
         env:
-          # Repository variable PROFILE_USERNAME if you set one, otherwise the repo owner.
-          # (GitHub forbids secrets/variables whose name starts with GITHUB_, so the
-          #  variable is named PROFILE_USERNAME but the script reads GITHUB_USERNAME.)
-          GITHUB_USERNAME: ${{ vars.PROFILE_USERNAME || github.repository_owner }}
-          # CONTRIB_TOKEN = classic PAT with `read:user` (needed to include private
-          # contributions). Falls back to the built-in token for public-only data.
-          GH_TOKEN: ${{ secrets.CONTRIB_TOKEN || secrets.GITHUB_TOKEN }}
-
           # ---- customisation (all optional) ----
           OUTPUT_DIR: output
           CELL_SIZE: "11"
@@ -61,14 +61,25 @@ jobs:
           # COLORS_DARK:  "#161b22,#0e4429,#006d32,#26a641,#39d353"
         run: node scripts/generate-contributions.mjs
 
+      - name: Generate stats and languages
+        env:
+          OUTPUT_DIR: output
+          README_PATH: README.md
+          # ---- customisation (all optional) ----
+          # TOP_LANGUAGES: "6"
+          # EXCLUDE_LANGUAGES: "Jupyter Notebook,HTML"   # comma-separated
+          # INCLUDE_PRIVATE: "false"                      # needs a PAT with `repo` scope
+        run: node scripts/generate-stats.mjs
+
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output
+          git add output README.md
           if git diff --staged --quiet; then
-            echo "No change in contribution graph."
+            echo "No change in contribution graph or stats."
             exit 0
           fi
-          git commit -m "chore: update contribution graph [skip ci]"
+          git commit -m "chore: update contribution graph and stats [skip ci]"
+          git pull --rebase
           git push
