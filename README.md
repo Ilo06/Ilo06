@@ -224,3 +224,7 @@ Anime-inspired AI chat application focused on expressive UI, interaction design,
 **Thanks for stopping by.**
 
 </div>
+
+<picture>
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/spider-lilies.svg" width="100%" alt="">
+</picture>
