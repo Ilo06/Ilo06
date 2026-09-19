@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/sakura-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/sakura.svg">
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/sakura.svg" width="100%" alt="">
+</picture>
+
 <div align="center">
 
 # Hi, I'm Ilo
@@ -122,7 +128,7 @@ Python · JavaScript · HTML · CSS · Bash · PowerShell · Maven · Gradle · 
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://ilo.is-a.dev/es1.png" width="100%" alt="EventSync screenshot">
+<img src="https://ilo.is-a.dev/es1.webp" width="100%" alt="EventSync screenshot">
 
 ### `01` · EventSync
 
@@ -138,7 +144,7 @@ I designed the PostgreSQL schema, built the REST API, and implemented the real-t
 
 <td width="50%" valign="top">
 
-<img src="https://ilo.is-a.dev/geo1.png" width="100%" alt="GeoNumerique screenshot">
+<img src="https://ilo.is-a.dev/geo1.webp" width="100%" alt="GeoNumerique screenshot">
 
 ### `02` · GeoNumerique
 
@@ -156,7 +162,7 @@ A practical exploration of deep-learning-based depth estimation for geospatial a
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://ilo.is-a.dev/pft1.png" width="100%" alt="Personal Finance Tracker screenshot">
+<img src="https://ilo.is-a.dev/pft1.webp" width="100%" alt="Personal Finance Tracker screenshot">
 
 ### `03` · Personal Finance Tracker
 
@@ -172,7 +178,7 @@ The project focuses on clear spending insights, security, reliability, and a smo
 
 <td width="50%" valign="top">
 
-<img src="https://ilo.is-a.dev/tsn1.png" width="100%" alt="Tsundere AI screenshot">
+<img src="https://ilo.is-a.dev/tsn1.webp" width="100%" alt="Tsundere AI screenshot">
 
 ### `04` · Tsundere AI
 
