@@ -192,8 +192,11 @@ The project explores expressive interfaces and conversational experiences around
 
 ## `04` · GitHub
 
-<!-- stats:start -->
-<!-- stats:end -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/stats.svg">
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/stats.svg" width="100%" alt="GitHub statistics: contributions, commits, pull requests, issues, repositories, stars, contributed to, current and longest streak">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions-dark.svg">
