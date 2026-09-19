@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ilo
+#Hi, I'm Ilo
 
 **Full-stack developer · Computer Science student · Madagascar**
 
