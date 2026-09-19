@@ -10,15 +10,25 @@
   </linearGradient>
 </defs>
 <style>
-  .sway { animation: sway ease-in-out infinite alternate; }
-  .blade { animation: sway ease-in-out infinite alternate; }
-  @keyframes sway { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
+  .sway, .blade { animation: sway ease-in-out infinite alternate; }
+  /* faster, still varied per stalk (was ~2.6-6.5s, now ~1.2-2.6s) */
+  .sway:nth-child(5n+1), .blade:nth-child(5n+1) { animation-duration: 1.2s !important; }
+  .sway:nth-child(5n+2), .blade:nth-child(5n+2) { animation-duration: 1.5s !important; }
+  .sway:nth-child(5n+3), .blade:nth-child(5n+3) { animation-duration: 1.8s !important; }
+  .sway:nth-child(5n+4), .blade:nth-child(5n+4) { animation-duration: 2.2s !important; }
+  .sway:nth-child(5n),   .blade:nth-child(5n)   { animation-duration: 2.6s !important; }
+  @keyframes sway { from { transform: rotate(-5deg); } to { transform: rotate(5deg); } }
+
   .fall { animation: fall linear infinite; }
+  .fall:nth-child(3n+1) { animation-duration: 4.5s !important; }
+  .fall:nth-child(3n+2) { animation-duration: 5.5s !important; }
+  .fall:nth-child(3n)   { animation-duration: 6.5s !important; }
   @keyframes fall {
-    0% { transform: translate(0,0) rotate(0deg); opacity: 0; }
-    10% { opacity: .85; }
-    100% { transform: translate(var(--dx), 220px) rotate(300deg); opacity: 0; }
+    0%   { transform: translate(0,0) rotate(0deg); opacity: 0; }
+    10%  { opacity: .85; }
+    100% { transform: translate(calc(var(--dx) * 2.5), 220px) rotate(600deg); opacity: 0; }
   }
+
   @media (prefers-reduced-motion: reduce) { .sway,.blade,.fall { animation: none; } }
 </style>
 <rect width="1200" height="220" fill="url(#fade)"/>
