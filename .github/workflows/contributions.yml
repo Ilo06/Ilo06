@@ -68,8 +68,8 @@ jobs:
           OUTPUT_DIR: output
           # ---- customisation (all optional) ----
           # TOP_LANGUAGES: "6"
-          # EXCLUDE_LANGUAGES: "Jupyter Notebook,HTML"   # comma-separated
-          # INCLUDE_PRIVATE: "false"                      # needs a PAT with `repo` scope
+          EXCLUDE_LANGUAGES: "Jupyter Notebook,HTML, CSS"   # comma-separated
+          INCLUDE_PRIVATE: "true"                      # needs a PAT with `repo` scope
         run: node scripts/generate-stats.mjs
 
       - name: Commit if changed
