@@ -39,11 +39,20 @@ Building across **Java / Spring Boot**, **Node.js**, **React / Next.js**, and **
 
 ## `01` · About
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/terminal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/terminal.svg">
-  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/terminal.svg" width="100%" alt="I write software, break things, fix them, and occasionally wonder why I decided to use that framework in the first place. Currently studying Computer Science at HEI in Madagascar. Interested in: backend architecture and APIs development, geospatial and WebGL experiments, Linux, game development.">
-</picture>
+```text
+I write software, break things, fix them, and occasionally wonder
+why I decided to use that framework in the first place.
+
+Currently studying Computer Science at HEI in Madagascar.
+
+Interested in:
+→ Backend architecture & APIs development
+→ Geospatial & WebGL experiments
+→ Linux
+→ Game development
+```
+
+---
 
 ## `02` · What I work with
 
