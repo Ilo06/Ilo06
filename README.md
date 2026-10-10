@@ -128,25 +128,25 @@ Python · JavaScript · HTML · CSS · Bash · PowerShell · Maven · Gradle · 
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/event.png" width="100%" alt="EventSync screenshot">
+<img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/klaody.png" width="100%" alt="Klaody screenshot">
 
-### `01` · EventSync
+### `01` · Klaody
 
-**Spring Boot · Next.js · TypeScript · PostgreSQL · WebSocket/STOMP · JWT**
+**React · Vite · TypeScript · React Query · Express · Prisma · PostgreSQL · pgvector · CLIP**
 
-Full-stack tech event platform with real-time Q&A, live agendas, JWT authentication, and session tracking.
+File storage platform with sharing, a trash bin, and image search powered by CLIP and pgvector. Self-hosted behind nginx with HTTPS.
 
 </td>
 
 <td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/geo.png" width="100%" alt="GeoNumerique screenshot">
+<img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/event.png" width="100%" alt="EventSync screenshot">
 
-### `02` · GeoNumerique
+### `02` · EventSync
 
-**Python · Depth Anything V2 · PyTorch · QGIS**
+**Spring Boot · Next.js · TypeScript · PostgreSQL · WebSocket/STOMP · JWT**
 
-Computer vision project transforming monocular images into 3D house representations using depth estimation.
+Full-stack tech event platform with real-time Q&A, live agendas, JWT authentication, and session tracking.
 
 </td>
 </tr>
@@ -154,25 +154,45 @@ Computer vision project transforming monocular images into 3D house representati
 <tr>
 <td width="50%" valign="top">
 
+<img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/geo.png" width="100%" alt="GeoNumerique screenshot">
+
+### `03` · GeoNumerique
+
+**Python · Depth Anything V2 · PyTorch · QGIS**
+
+Computer vision project transforming monocular images into 3D house representations using depth estimation.
+
+</td>
+
+<td width="50%" valign="top">
+
 <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/pft.png" width="100%" alt="Personal Finance Tracker screenshot">
 
-### `03` · Personal Finance Tracker
+### `04` · Personal Finance Tracker
 
 **React · TypeScript · Node.js · Express · PostgreSQL**
 
 Full-stack finance tracker for managing income, expenses, budgets, and financial activity.
 
 </td>
+</tr>
 
+<tr>
 <td width="50%" valign="top">
 
 <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/assets/tsun.png" width="100%" alt="Tsundere AI screenshot">
 
-### `04` · Tsundere AI
+### `05` · Tsundere AI
 
 **React · TypeScript · Node.js · LM Studio · Gemini · Llama.cpp**
 
 Anime-inspired AI chat application focused on expressive UI, interaction design, and conversational experiences.
+
+</td>
+
+<td width="50%" valign="top">
+
+<!-- Emplacement libre (projet 06) -->
 
 </td>
 </tr>
