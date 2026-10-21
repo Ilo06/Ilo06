@@ -14,11 +14,6 @@ Building across **Java / Spring Boot**, **Node.js**, **React / Next.js**, and **
 
 <br>
 <div align="center">
-
-<a href="https://github.com/Ilo06">
-  <img src="https://img.shields.io/badge/GitHub-18181B?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-&nbsp;
 <a href="https://linkedin.com/in/ilo06">
   <img src="https://img.shields.io/badge/LinkedIn-18181B?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
