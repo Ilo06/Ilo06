@@ -129,7 +129,7 @@ Python · JavaScript · HTML · CSS · Bash · PowerShell · Maven · Gradle · 
 
 **React · Vite · TypeScript · React Query · Express · Prisma · PostgreSQL · pgvector · CLIP**
 
-File storage platform with sharing, a trash bin, and image search powered by CLIP and pgvector. Self-hosted behind nginx with HTTPS.
+File storage platform with sharing, a trash bin, and image sementic search powered by CLIP and pgvector. Self-hosted behind nginx with HTTPS with CI/CD pipeline.
 
 </td>
 
