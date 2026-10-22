@@ -141,7 +141,7 @@ File storage platform with sharing, a trash bin, and image sementic search power
 
 **Spring Boot · Next.js · TypeScript · PostgreSQL · WebSocket/STOMP · JWT**
 
-Full-stack tech event platform with real-time Q&A, live agendas, JWT authentication, and session tracking.
+Full-stack tech event platform with real-time Q&A with websocket, live agendas, JWT authentication, and session tracking.
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Full-stack tech event platform with real-time Q&A, live agendas, JWT authenticat
 
 **Python · Depth Anything V2 · PyTorch · QGIS**
 
-Computer vision project transforming monocular images into 3D house representations using depth estimation.
+Computer vision project transforming monocular images into 3D house and area representations using depth estimation by deep learning.
 
 </td>
 
@@ -167,7 +167,7 @@ Computer vision project transforming monocular images into 3D house representati
 
 **React · TypeScript · Node.js · Express · PostgreSQL**
 
-Full-stack finance tracker for managing income, expenses, budgets, and financial activity.
+Full-stack finance tracker for managing income, expenses, budgets, and financial activity including AI integration for financial advice.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Full-stack finance tracker for managing income, expenses, budgets, and financial
 
 **React · TypeScript · Node.js · LM Studio · Gemini · Llama.cpp**
 
-Anime-inspired AI chat application focused on expressive UI, interaction design, and conversational experiences.
+Anime-inspired AI chat application focused on expressive UI, interaction design, and conversational experiences, fully offline.
 
 </td>
 
