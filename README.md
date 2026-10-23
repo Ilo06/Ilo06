@@ -187,7 +187,7 @@ Anime-inspired AI chat application focused on expressive UI, interaction design,
 
 <td width="50%" valign="top">
 
-<!-- Emplacement libre (projet 06) -->
+<!-- Emplacement libre (projet 06) -- maybe hibike -->
 
 </td>
 </tr>
