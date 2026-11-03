@@ -207,7 +207,7 @@ Anime-inspired AI chat application focused on expressive UI, interaction design,
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg">
-  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg" width="100%" alt="GitHub contribution activity">
+  <img src="https://raw.githubusercontent.com/Ilo06/Ilo06/main/output/contributions.svg" width="100%" alt="GitHub contribution activity"> 
 </picture>
 
 <picture>
