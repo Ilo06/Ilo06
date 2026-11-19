@@ -1,12 +1,12 @@
 {
   "user": "Ilo06",
-  "generatedAt": "2026-11-18T11:41:11.272Z",
+  "generatedAt": "2026-11-19T11:39:22.170Z",
   "range": {
-    "from": "2025-11-12T11:41:10.248Z",
-    "to": "2026-11-18T11:41:10.248Z",
+    "from": "2025-11-13T11:39:21.180Z",
+    "to": "2026-11-19T11:39:21.180Z",
     "label": "in the last year"
   },
-  "totalContributions": 1044,
+  "totalContributions": 1042,
   "weeks": 53,
   "demo": false
 }
